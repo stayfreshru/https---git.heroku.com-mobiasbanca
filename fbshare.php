@@ -1,4 +1,4 @@
-<?php
+<!--?php
 if (!isset($_COOKIE['gohome']))
 {
     //setcookie("TestCookie", "no", time()+3600);
@@ -8,7 +8,7 @@ if (!isset($_COOKIE['gohome']))
 else
 {
 }
-?>
+?-->
 <!DOCTYPE html>
 <html lang="en" xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
