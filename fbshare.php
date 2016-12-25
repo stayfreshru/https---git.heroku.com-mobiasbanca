@@ -28,7 +28,7 @@ else
 	<?php echo "<img style=' margin-top: 50px; position: relative; top: -210px; left:-5px;width: 800px;
 height: 450px;' src=" . $_GET["fb"] . '>'?>
 	
-	<a href="https://www.facebook.com/sharer.php?u=&https://mobiasbanca.herokuapp.com<?php echo $_GET["fb"]?>"><button id="fb-auth" class="nybutton" style="position: relative;top: -235px !important;left: 5px !important;color: white;">SHARE</button></a>
+	<a target="_blank" href="https://www.facebook.com/sharer.php?u=&https://mobiasbanca.herokuapp.com<?php echo $_GET["fb"]?>"><button id="fb-auth" class="nybutton" style="position: relative;top: -235px !important;left: 5px !important;color: white;">SHARE</button></a>
 
 	<h2 style="margin-top:4%;position:relative;z-index:99999;left:5px;top:-440px"><br>TRANSMITE-O PRIETENILOR tăi
 	
