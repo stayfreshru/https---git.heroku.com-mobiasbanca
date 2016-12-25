@@ -1,8 +1,8 @@
-<?php
+<!--?php
 $value = 'что-то где-то';
 $cookie_name = "gohome";
 setcookie('gohome',$value, time() + (86400 * 1), "/"); // 86400 = 1 day
-?>
+?-->
 <!DOCTYPE html>
 <html lang="en" xmlns:fb="https://www.facebook.com/2008/fbml" style=" width: 800px; height: 650px;margin: 0 Auto;">
 <head>
@@ -68,7 +68,7 @@ fabric.Image.fromURL('<?php echo $_COOKIE['img1']; ?>', function(img1){
     img2.setWidth(img2.width * 0.42);
     img2.setHeight(img2.height * 0.42);
     //img2.set({ left: 10, top: 100 })
-    var group = new fabric.Group([ img2], { left: 89, top: 275 });
+    var group = new fabric.Group([ img2], { left: 89, top: 165 });
         group.set({
             clipTo: function (ctx) {
                 ctx.rect(-50, -70, 100,100);
@@ -87,7 +87,7 @@ fabric.Image.fromURL('<?php echo $_COOKIE['img3']; ?>', function(img3){
     img3.setWidth(img3.width * 0.42);
     img3.setHeight(img3.height * 0.42);
     //img3.set({ left: 100, top: 100 })
-    var group = new fabric.Group([ img3], { left: 234, top: 270 });
+    var group = new fabric.Group([ img3], { left: 234, top: 160 });
         group.set({
             clipTo: function (ctx) {
                 ctx.rect(-50, -70, 100,100);
@@ -101,12 +101,12 @@ fabric.Image.fromURL('<?php echo $_COOKIE['img3']; ?>', function(img3){
 
 });
 fabric.Image.fromURL('<?php echo $_COOKIE['img4']; ?>', function(img4){
-    img4.hasBorders = false;
-  //  img4.hasControls = false;
+    //img4.hasBorders = false;
+    //img4.hasControls = false;
     img4.setWidth(img4.width * 0.42);
     img4.setHeight(img4.height * 0.42);
     //img4.set({ left: 100, top: 100 })
-    var group = new fabric.Group([ img4], { left: 382, top: 277 });
+    var group = new fabric.Group([ img4], { left: 382, top: 267 });
         group.set({
             clipTo: function (ctx) {
                 ctx.rect(-50, -70, 100,100);
@@ -125,7 +125,7 @@ fabric.Image.fromURL('<?php echo $_COOKIE['img5']; ?>', function(img5){
     img5.setWidth(img5.width * 0.42);
     img5.setHeight(img5.height * 0.42);
     //img5.set({ left: 100, top: 100 })
-    var group = new fabric.Group([ img5], { left: 545, top: 275 });
+    var group = new fabric.Group([ img5], { left: 545, top: 165 });
         group.set({
             clipTo: function (ctx) {
                 ctx.rect(-50, -70, 100,100);
