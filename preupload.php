@@ -106,7 +106,7 @@ fabric.Image.fromURL('<?php echo $_COOKIE['img4']; ?>', function(img4){
     img4.setWidth(img4.width * 0.42);
     img4.setHeight(img4.height * 0.42);
     //img4.set({ left: 100, top: 100 })
-    var group = new fabric.Group([ img4], { left: 382, top: 267 });
+    var group = new fabric.Group([ img4], { left: 382, top: 157 });
         group.set({
             clipTo: function (ctx) {
                 ctx.rect(-50, -70, 100,100);

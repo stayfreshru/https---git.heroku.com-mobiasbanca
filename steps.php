@@ -280,7 +280,7 @@ function handleImage(e) {
          canvas.item(0).set({
           borderColor: 'red',
           cornerColor: 'green',
-          cornerSize: 6,
+          cornerSize: 16,
           transparentCorners: false
         });   
          canvas.setActiveObject(canvas.item(0));
@@ -320,7 +320,7 @@ function handleImage(e) {
          canvas.item(0).set({
           borderColor: 'red',
           cornerColor: 'green',
-          cornerSize: 6,
+          cornerSize: 16,
           transparentCorners: false
         });       
          canvas.setActiveObject(canvas.item(0));
@@ -356,7 +356,7 @@ function handleImage(e) {
          canvas.item(0).set({
           borderColor: 'red',
           cornerColor: 'green',
-          cornerSize: 6,
+          cornerSize: 16,
           transparentCorners: false
         });     
          canvas.setActiveObject(canvas.item(0)); 
@@ -392,7 +392,7 @@ function handleImage(e) {
          canvas.item(0).set({
           borderColor: 'red',
           cornerColor: 'green',
-          cornerSize: 6,
+          cornerSize: 16,
           transparentCorners: false
         });   
          canvas.setActiveObject(canvas.item(0));  
@@ -428,7 +428,7 @@ function handleImage(e) {
          canvas.item(0).set({
           borderColor: 'red',
           cornerColor: 'green',
-          cornerSize: 36,
+          cornerSize: 16,
           transparentCorners: false
         });    
          canvas.setActiveObject(canvas.item(0)); 
