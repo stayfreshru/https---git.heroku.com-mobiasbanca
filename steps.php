@@ -8,7 +8,7 @@
     <script src="js/fabric.js"></script>
     <script src="js/custom-file-input.js"></script>
     <script src="js/kinetic-v5.1.0.js"></script>
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <style type="text/css">
       body {
       	margin-top:40px;
@@ -57,8 +57,8 @@
         margin:10px;
       }
     </style>
-    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 </head>
     
 <body id="2" style="background:none; margin-top:0px;overflow:scroll;margin: 0 Auto;">
