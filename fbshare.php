@@ -1,4 +1,14 @@
-<?php // принимаем данные ?>
+<?php
+if (!isset($_COOKIE['gohome']))
+{
+    //setcookie("TestCookie", "no", time()+3600);
+    header('Location: /');
+    exit();
+}
+else
+{
+}
+?>
 <!DOCTYPE html>
 <html lang="en" xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
@@ -19,7 +29,7 @@
 height: 450px;' src=" . $_GET["fb"] . '>'?>
 	
 	<button id="fb-auth" class="nybutton" style="position: relative;top: -235px !important;left: 5px !important;">
-	<a href="https://www.facebook.com/sharer.php?u=&http://mobiasbanca.herokuapp.com/">SHARE</a>
+	<a href="https://www.facebook.com/sharer.php?u=&http://stayfresh.ru/facebook/<?php echo $_GET["fb"]?>t=НазваниеПоста">SHARE</a>
 	</button>
 
 	<h2 style="margin-top:4%;position:relative;z-index:99999;left:5px;top:-440px"><br>TRANSMITE-O PRIETENILOR tăi
