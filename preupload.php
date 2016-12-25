@@ -22,11 +22,11 @@ setcookie('gohome',$value, time() + (86400 * 1), "/"); // 86400 = 1 day
                 <input name="hidden_data" id='hidden_data' type="hidden"/>
         </form>
         <canvas id="imageCanvas" width="800" height="450"></canvas>
-        <button id="fb-auth" class="nybutton" style=" top: -26px !important;">
-            <a id="imageSaver">
-               <input class="click" id="imageSaverbutton" type="button" onclick="uploadEx()" value="SALVEAZĂ">
+        <div id="fb-auth" style="margin: 0 auto;top: 0px;left: 0px;">
+            <a id="imageSaver" class="nybutton" style=" top: -26px !important;"> 
+               <input class="click" id="imageSaverbutton" onclick="uploadEx()" value="SALVEAZĂ" style="margin-top: 22px;" type="button">
             </a>
-        </button>
+        </div>
     </div>
     
     <img id="imgincarca" src="./images/editeaza.png">

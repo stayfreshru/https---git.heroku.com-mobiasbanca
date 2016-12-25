@@ -14,7 +14,7 @@ $sApplicationSecret = 'eff223831767392da00ebefc18b4ddd7';
 <div id="container">
 <img src="./images/start.png" style="
 margin-top: 4%"/>
-<button id="fb-auth" class="nybutton"><a href="steps.php">START</a></button>
+<a href="steps.php"><button id="fb-auth" class="nybutton" style="color: white;cursor: pointer;">START</button></a>
  <br>
  </div>
 </body>
