@@ -47,13 +47,19 @@ setcookie('gohome',$value, time() + (86400 * 1), "/"); // 86400 = 1 day
       	position: relative;
       }
       .btn-circle {
-      	width: 30px;
-      	height: 30px;
-      	text-align: center;
-      	padding: 6px 0;
-      	font-size: 12px !important;
-      	line-height: 1.428571429;
-      	border-radius: 15px;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      padding: 5px 9px;
+      font-size: 18px !important;
+      line-height: 1;
+      border-radius: 15px;
+      font-weight: 400 !important;
+      }
+      .btn-primary{
+        color: #fff;
+background-color: #ca0a23;
+border-color: #bd043d;
       }
       .row{
         margin-left: -30px;
@@ -179,7 +185,11 @@ setcookie('gohome',$value, time() + (86400 * 1), "/"); // 86400 = 1 day
       </div>
     </div>
   </form>
-    <div class="stepwizard col-md-offset-3" style=" width: 100%; margin-left: 0%; margin-top: -80px; border: none; background: none">
+    <div class="stepwizard col-md-offset-3" style="width: 30%;
+margin-left: 40px;
+margin-top: -270px;
+border: none;
+background: none">
     <div class="stepwizard-row setup-panel">
       <div class="stepwizard-step">
         <a href="#step-1" type="button" class="btn btn-primary btn-circle">1</a>
