@@ -1,7 +1,7 @@
 <?php
-$value = 'что-то где-то';
-$cookie_name = "gohome";
-setcookie('gohome',$value, time() + (100 * 1), "/"); // 86400 = 1 day
+//$value = 'что-то где-то';
+//$cookie_name = "gohome";
+//setcookie('gohome',$value, time() + (100 * 1), "/"); // 86400 = 1 day
 ?>
 <!DOCTYPE html>
 <html lang="en">
