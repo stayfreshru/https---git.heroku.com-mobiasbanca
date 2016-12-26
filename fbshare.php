@@ -24,14 +24,12 @@ else
 <body>
 <div id="user-info" style=" position: absolute"></div>
 <div id="container" style=" background: url(../images/bg.jpg);">
-<img src="./images/ura.png" style="margin-top:4%;position:relative;z-index:99999;left:0px;top:1px">
-	<?php echo "<img style=' margin-top: 50px; position: relative; top: -210px; left:-5px;width: 800px;
-height: 450px;' src=" . $_GET["fb"] . '>'?>
+<img src="./images/ura.png" style="position: relative; z-index: 99999; left: -5px; top: 0px">
+	<?php echo "<img style='position: relative; top: -213px; left: -5px; width: 800px; height: 450px;' src=" . $_GET["fb"] . '>'?>
 	
 	<a target="_blank" href="https://www.facebook.com/sharer.php"><button id="fb-auth" class="nybutton" style="position: relative;top: -235px !important;left: 5px !important;color: white;">SHARE</button></a>
 
 	<h2 style="margin-top:4%;position:relative;z-index:99999;left:5px;top:-440px"><br>TRANSMITE-O PRIETENILOR tăi
-	
 </h2>
  </div>
 
