@@ -1,12 +1,13 @@
-<?php
-$sApplicationId = '1805815853007767';
-$sApplicationSecret = 'eff223831767392da00ebefc18b4ddd7';
-?>
 <!DOCTYPE html>
-<html lang="en" xmlns:fb="https://www.facebook.com/2008/fbml">
+<html lang="en" xmlns:fb="https://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#">
 <head>
-<meta charset="utf-8" />
-  <title>ЗАГОЛОВОК СТРАНИЦЫ</title>
+	<meta charset="utf-8" />
+    <title>XMAS GREETING</title>
+    <meta property="og:url"           content="" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="La Mulți Ani, 2017!" />
+	<meta property="og:description"   content="Felicită-ți prietenii original și tu!" />
+	<meta property="og:image"         content="/<?php echo $_GET["fb"]?>" />
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>

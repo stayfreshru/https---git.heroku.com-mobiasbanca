@@ -1,14 +1,17 @@
 <?php
 $value = 'что-то где-то';
 $cookie_name = "gohome";
-setcookie('gohome',$value, time() + (86400 * 1), "/"); // 86400 = 1 day
+setcookie('gohome',$value, time() + (1800 * 1), "/"); // 86400 = 1 day
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
     <meta charset="utf-8">
-    <meta charset="utf-8" />
-    <title>MOBIAS FACEBOOK APP</title>
+    <title>XMAS GREETING</title>
+    <meta property="og:url"           content="" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="La Mulți Ani, 2017!" />
+    <meta property="og:description"   content="Felicită-ți prietenii original și tu!" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/fabric.js"></script>
     <script src="js/custom-file-input.js"></script>

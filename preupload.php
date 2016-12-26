@@ -1,13 +1,17 @@
-<!--?php
+<?php
 $value = 'что-то где-то';
 $cookie_name = "gohome";
-setcookie('gohome',$value, time() + (86400 * 1), "/"); // 86400 = 1 day
-?-->
+setcookie('gohome',$value, time() + (1800 * 1), "/"); // 86400 = 1 day
+?>
 <!DOCTYPE html>
 <html lang="en" xmlns:fb="https://www.facebook.com/2008/fbml" style=" width: 800px; height: 650px;margin: 0 Auto;">
 <head>
 <meta charset="utf-8" />
-  <title>ЗАГОЛОВОК СТРАНИЦЫ</title>
+    <title>XMAS GREETING</title>
+    <meta property="og:url"           content="" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="La Mulți Ani, 2017!" />
+    <meta property="og:description"   content="Felicită-ți prietenii original și tu!" />
 
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="js/fabric.js"></script>

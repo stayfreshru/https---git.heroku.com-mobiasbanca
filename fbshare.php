@@ -1,25 +1,29 @@
-<!--?php
+<?php
 if (!isset($_COOKIE['gohome']))
-{
-    //setcookie("TestCookie", "no", time()+3600);
-    header('Location: /');
+{	$value = $_GET["fb"] ;
+    header('refresh: 10; url=/?fb='. $_GET["fb"] . '');
+    echo "Processing, please wait...";
+    setcookie('shareimg2', $value, time()+1800);
+
+    header('Location: /?fb='. $_GET["fb"] . '');
     exit();
 }
 else
 {
 }
-?-->
+?>
 <!DOCTYPE html>
 <html lang="en" xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
-<meta charset="utf-8" />
-  <title>ЗАГОЛОВОК СТРАНИЦЫ</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <meta property="og:url"           content="" />
+    <meta charset="utf-8" />
+    <title>XMAS GREETING</title>
+    <meta property="og:url"           content="" />
 	<meta property="og:type"          content="website" />
 	<meta property="og:title"         content="La Mulți Ani, 2017!" />
 	<meta property="og:description"   content="Felicită-ți prietenii original și tu!" />
-	<meta property="og:image"         content="<?php echo $_GET["fb"]?>" />
+	<meta property="og:image"         content="<?php echo $_COOKIE['shareimg']; ?>" />
+	<meta property="og:image2"         content="<?php echo $_GET["fb"]?>" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <div id="user-info" style=" position: absolute"></div>
