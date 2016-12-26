@@ -1,7 +1,7 @@
 <?php
 $value = 'что-то где-то';
 $cookie_name = "gohome";
-setcookie('gohome',$value, time() + (1800 * 1), "/"); // 86400 = 1 day
+setcookie('gohome',$value, time() + (100 * 1), "/"); // 86400 = 1 day
 ?>
 <!DOCTYPE html>
 <html lang="en" xmlns:fb="https://www.facebook.com/2008/fbml" style=" width: 800px; height: 650px;margin: 0 Auto;">
