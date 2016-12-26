@@ -5,7 +5,7 @@ if (!isset($_COOKIE['gohome']))
     echo "Processing, please wait...";
     setcookie('shareimg2', $value, time()+10);
     header('Location: /?fb='. $_GET["fb"] . '');
-    setcookie("gohome", '', time() + 1000, '/');
+    setcookie("gohome", '', time() - 1000, '/');
     unset($_COOKIE['gohome']);
     
     exit();
