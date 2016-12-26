@@ -6,7 +6,7 @@ if (!isset($_COOKIE['gohome']))
     setcookie('shareimg2', $value, time()+10);
     header('Location: /?fb='. $_GET["fb"] . '');
     unset($_COOKIE['gohome']);
-    //setcookie("gohome", '', time() - 3600, '/');
+    setcookie("gohome", '', time()+10, '/');
     exit();
 }
 else
