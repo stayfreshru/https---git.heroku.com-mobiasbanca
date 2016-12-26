@@ -189,6 +189,7 @@ border-color: #bd043d;
     </div>
   </form>
     <div class="stepwizard col-md-offset-3" style="width: 30%;
+    position: absolute;
 margin-left: 40px;
 margin-top: -270px;
 border: none;
